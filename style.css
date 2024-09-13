@@ -25,3 +25,9 @@ html {
     text-align: center;
     appearance: none;
 }
+
+.square {
+    width: 10em;
+    height: 10em;
+    border: solid;
+}
