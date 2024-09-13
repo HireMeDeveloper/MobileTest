@@ -2,6 +2,12 @@ html {
     font-size: clamp(0.4rem, 2.65vh, 2.5em);
 }
 
+@media screen and (max-width: 600px) {
+    html {
+        font-size: clamp(0.4rem, min(4.75vm, 2.65vh), 2.5em);
+    }
+}
+
 .card-button {
     color: black;
     background: white;
@@ -18,16 +24,4 @@ html {
     align-items: center;
     text-align: center;
     appearance: none;
-}
-
-@media screen and (max-width: 600px) {
-    html {
-        font-size: clamp(0.4rem, min(4.75vm, 2.65vh), 2.5em);
-    }
-
-    .card-button {
-        width: 1.5em;
-        height: auto;
-        aspect-ratio: 1/1;
-    }
 }
