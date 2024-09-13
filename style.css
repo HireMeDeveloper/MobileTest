@@ -6,6 +6,12 @@ html {
     html {
         font-size: clamp(0.4rem, min(4.75vm, 2.65vh), 2.5em);
     }
+
+    .card-button {
+        width: 1.6em;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
 }
 
 .card-button {
@@ -24,10 +30,4 @@ html {
     align-items: center;
     text-align: center;
     appearance: none;
-}
-
-.square {
-    width: 4em;
-    height: 4em;
-    border:  2em solid;
 }
