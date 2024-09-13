@@ -27,7 +27,7 @@ html {
 }
 
 .square {
-    width: 10em;
-    height: 10em;
-    border: solid;
+    width: 4em;
+    height: 4em;
+    border:  2em solid;
 }
