@@ -1,5 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     font-size: clamp(0.4rem, 2.65vh, 2.5em);
+}
+
+body {
+    height: 100dvh;
 }
 
 @media screen and (max-width: 600px) {
@@ -8,12 +17,19 @@ html {
     }
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100svh;
+}
+
 .card-button {
     color: black;
     background: white;
     border: .1em solid black;
     border-radius: .1em;
-    margin: .05em;
     width: 1.8em;
     height: 1.8em;
     font-size: 1em;
@@ -21,7 +37,6 @@ html {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     appearance: none;
 }
